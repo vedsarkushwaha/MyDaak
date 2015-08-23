@@ -1,0 +1,1 @@
+create sequence m_id start with 10 increment by 1 nocycle;

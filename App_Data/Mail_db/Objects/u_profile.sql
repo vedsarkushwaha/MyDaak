@@ -1,0 +1,1 @@
+create table u_profile(f_name varchar2(20), l_name varchar2(20),dob date,gender varchar2(1),phone_no number,alternate_email varchar2(50),username varchar2(50), security_ques varchar2(100),security_ques_ans varchar2(20), location varchar2(30));

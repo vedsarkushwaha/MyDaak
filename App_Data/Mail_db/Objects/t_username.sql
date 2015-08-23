@@ -1,0 +1,1 @@
+create table username(user_id varchar2(50) constraint username_pk primary key constraint user_id_u_profile_username references u_profile(username) ,password varchar2(30));

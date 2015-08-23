@@ -1,0 +1,1 @@
+create table mail_exchange(senders_address varchar2(50) constraint mail_exchange_ref_username_s references username(user_id), m_uid number constraint mail_transaction_ref_messages references messages(m_uid),sending_date date,receiving_date date,receivers_address varchar2(50) constraint mail_exchange_ref_username_r references username(user_id));

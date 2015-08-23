@@ -1,0 +1,1 @@
+create table draft(m_uid number constraint draft_ref_messages references messages(m_uid));
