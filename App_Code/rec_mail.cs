@@ -16,7 +16,7 @@ public class rec_mail
 	        mail.IsBodyHtml = true;
         	SmtpClient smtp = new SmtpClient();
 	        smtp.Host = "smtp.gmail.com";
-        	smtp.Credentials = new System.Net.NetworkCredential("mydaakcompany", "05313664");	
+        	smtp.Credentials = new System.Net.NetworkCredential("mydaakcompany", "test1234");	
 	        smtp.EnableSsl = true;
         	smtp.Send(mail);
             return 1;
