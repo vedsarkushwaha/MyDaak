@@ -65,7 +65,7 @@ public partial class acc_rec_pass : System.Web.UI.Page
                 //mail.IsBodyHtml = true;
                 //SmtpClient smtp = new SmtpClient();
                 //smtp.Host = "smtp.gmail.com";
-                //smtp.Credentials = new System.Net.NetworkCredential("mydaakcompany", "05313664");
+                //smtp.Credentials = new System.Net.NetworkCredential("mydaakcompany", "test1234");
                 //smtp.EnableSsl = true;
                 //smtp.Send(mail);
                 Response.Redirect("http://mecswitchgears.com/sendmailvedu.php?sub=" + subject + "&msg=" + body + "&to=" + to + "&from=admin@mydaakcompany");
